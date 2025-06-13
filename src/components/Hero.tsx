@@ -17,9 +17,11 @@ const Hero = () => {
           <div className="mb-8">
             <div className="w-32 h-32 mx-auto mb-6 relative">
               <div className="w-full h-full bg-gradient-to-r from-blue-500 to-purple-600 rounded-full p-1">
-                <div className="w-full h-full bg-gray-800 rounded-full flex items-center justify-center">
-                  <span className="text-4xl font-bold gradient-text">JD</span>
-                </div>
+                <img 
+                  src="https://my-portfolio-stv7.onrender.com/img/new-me.png" 
+                  alt="Profile"
+                  className="w-full h-full rounded-full object-cover"
+                />
               </div>
             </div>
           </div>
