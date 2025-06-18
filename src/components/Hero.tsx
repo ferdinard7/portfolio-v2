@@ -1,7 +1,6 @@
 
 import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import Logo from './Logo';
 
 const Hero = () => {
   return (
@@ -15,17 +14,6 @@ const Hero = () => {
 
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="animate-fade-in">
-          {/* Logo Section */}
-          <div className="mb-8">
-            <div className="w-48 h-48 mx-auto mb-6 relative">
-              <Logo 
-                width={192}
-                height={192}
-                className="w-full h-full object-contain"
-              />
-            </div>
-          </div>
-
           {/* Profile Image */}
           <div className="mb-8">
             <div className="w-32 h-32 mx-auto mb-6 relative">
