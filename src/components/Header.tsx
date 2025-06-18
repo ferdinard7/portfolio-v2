@@ -1,6 +1,7 @@
 
 import { useState, useEffect } from 'react';
 import { Menu, X, Home, User, Code, Mail, Briefcase } from 'lucide-react';
+import Logo from './Logo';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,8 +30,11 @@ const Header = () => {
     }`}>
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-2xl font-bold gradient-text">
-            Portfolio
+          <div className="flex items-center space-x-3">
+            <Logo width={40} height={40} className="flex-shrink-0" />
+            <div className="text-2xl font-bold gradient-text">
+              Big Ferd
+            </div>
           </div>
 
           {/* Desktop Navigation */}
