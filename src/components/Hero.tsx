@@ -14,6 +14,18 @@ const Hero = () => {
 
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="animate-fade-in">
+          {/* Logo Section */}
+          <div className="mb-8">
+            <div className="w-48 h-48 mx-auto mb-6 relative">
+              <img 
+                src="/lovable-uploads/014ba162-671f-4af6-9389-06a597ac3f8c.png" 
+                alt="Big Ferd Logo"
+                className="w-full h-full object-contain"
+              />
+            </div>
+          </div>
+
+          {/* Profile Image */}
           <div className="mb-8">
             <div className="w-32 h-32 mx-auto mb-6 relative">
               <div className="w-full h-full bg-gradient-to-r from-blue-500 to-purple-600 rounded-full p-1">
@@ -27,7 +39,7 @@ const Hero = () => {
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            <span className="gradient-text">John Doe</span>
+            <span className="gradient-text">Big Ferd</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-300 mb-4">
