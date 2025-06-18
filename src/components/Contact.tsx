@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -28,10 +29,10 @@ const Contact = () => {
     setIsSubmitting(true);
 
     try {
-      // EmailJS configuration - you'll need to provide these values
-      const serviceId = 'YOUR_SERVICE_ID';
-      const templateId = 'YOUR_TEMPLATE_ID';
-      const publicKey = 'YOUR_PUBLIC_KEY';
+      // EmailJS configuration
+      const serviceId = 'service_yk3zp5b';
+      const templateId = 'template_5c1ubf4';
+      const publicKey = '8OtLPJ1AYMbphb9Kb';
 
       const templateParams = {
         from_name: formData.name,

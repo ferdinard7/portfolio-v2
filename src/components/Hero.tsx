@@ -1,6 +1,7 @@
 
 import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import Logo from './Logo';
 
 const Hero = () => {
   return (
@@ -17,9 +18,9 @@ const Hero = () => {
           {/* Logo Section */}
           <div className="mb-8">
             <div className="w-48 h-48 mx-auto mb-6 relative">
-              <img 
-                src="/lovable-uploads/014ba162-671f-4af6-9389-06a597ac3f8c.png" 
-                alt="Big Ferd Logo"
+              <Logo 
+                width={192}
+                height={192}
                 className="w-full h-full object-contain"
               />
             </div>
