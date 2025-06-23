@@ -8,17 +8,17 @@ const Skills = () => {
     {
       title: 'Frontend',
       skills: [
-        { name: 'React/Next.js', level: 95 },
+        { name: 'React', level: 95 },
         { name: 'TypeScript', level: 90 },
-        { name: 'Vue.js', level: 85 },
+        { name: 'Next.js', level: 75 },
         { name: 'Tailwind CSS', level: 92 }
       ]
     },
     {
       title: 'Backend',
       skills: [
-        { name: 'Node.js', level: 88 },
-        { name: 'Python/Django', level: 82 },
+        { name: 'Node.js/Express.js', level: 90 },
+        { name: 'Nestjs', level: 72 },
         { name: 'PostgreSQL', level: 85 },
         { name: 'MongoDB', level: 80 }
       ]
@@ -101,8 +101,8 @@ const Skills = () => {
           <h3 className="text-2xl font-bold text-center mb-8 text-white">Other Technologies</h3>
           <div className="flex flex-wrap justify-center gap-4">
             {[
-              'JavaScript', 'HTML5', 'CSS3', 'SASS', 'GraphQL', 'REST APIs',
-              'Jest', 'Cypress', 'Figma', 'Adobe XD', 'Webpack', 'Vite'
+              'JavaScript', 'HTML5', 'CSS3', 'SASS', 'REST APIs',
+              'Redis', 'Nodejs', 'Figma', 'Microservices', 'Nestjs', 'Socket.io'
             ].map((tech) => (
               <span 
                 key={tech}

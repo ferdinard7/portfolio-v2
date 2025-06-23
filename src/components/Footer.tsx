@@ -40,7 +40,7 @@ const Footer = () => {
 
         <div className="mt-8 pt-8 border-t border-gray-800 text-center">
           <p className="text-gray-400 text-sm flex items-center justify-center space-x-1">
-            <span>© {currentYear} John Doe. Made with</span>
+            <span>© {currentYear} Big Ferd. Made with</span>
             <Heart size={16} className="text-red-500 fill-current" />
             <span>and lots of coffee.</span>
           </p>

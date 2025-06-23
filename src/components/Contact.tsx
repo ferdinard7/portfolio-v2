@@ -66,19 +66,19 @@ const Contact = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'john.doe@example.com',
-      href: 'mailto:john.doe@example.com'
+      value: 'tobeferdinard@gmail.com',
+      href: 'mailto:tobeferdinard@gmail.com'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567'
+      value: '+234 816 646 0649, +234 915 621 8746',
+      href: 'tel:+234 816 646 0649'
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Nigeria',
       href: '#'
     }
   ];

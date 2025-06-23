@@ -50,7 +50,7 @@ const About = () => {
                 projects, or sharing knowledge with the developer community through writing and mentoring.
               </p>
               <div className="flex flex-wrap gap-3">
-                {['React', 'TypeScript', 'Node.js', 'Python', 'AWS', 'Docker'].map((tech) => (
+                {['React', 'TypeScript', 'Node.js', 'React Native', 'Nestjs', 'AWS', 'Docker'].map((tech) => (
                   <span 
                     key={tech}
                     className="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-600/20 border border-blue-500/30 rounded-full text-sm text-blue-300"

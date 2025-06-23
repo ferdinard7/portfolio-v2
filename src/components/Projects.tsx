@@ -8,35 +8,35 @@ const Projects = () => {
       id: 1,
       title: 'E-Commerce Platform',
       description: 'A full-stack e-commerce solution built with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, and admin dashboard.',
-      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=800&q=80',
+      image: 'https://res.cloudinary.com/dljbovogk/image/upload/v1750684243/Ecommerce_gydocn_ucohqw.png',
       technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
       liveUrl: '#',
       githubUrl: '#'
     },
     {
       id: 2,
-      title: 'Task Management App',
-      description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
-      image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?auto=format&fit=crop&w=800&q=80',
-      technologies: ['React', 'Firebase', 'Material-UI', 'Socket.io'],
+      title: 'Restaurant Ordering meal App',
+      description: 'A restuarant web application, with ordering features.',
+      image: 'https://res.cloudinary.com/dljbovogk/image/upload/v1750685257/nad_af1fld_foutba.png',
+      technologies: ['React', 'node.js', 'expressjs', 'Socket.io', 'Paystack API'],
       liveUrl: '#',
       githubUrl: '#'
     },
     {
       id: 3,
-      title: 'Weather Dashboard',
-      description: 'A responsive weather dashboard that provides detailed weather information, forecasts, and interactive maps using multiple weather APIs.',
-      image: 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?auto=format&fit=crop&w=800&q=80',
-      technologies: ['Vue.js', 'Chart.js', 'OpenWeather API', 'Tailwind'],
+      title: 'Social Chatty Application',
+      description: 'A responsive Chat Application for friends and family to be connected with one another, multiple APIs were integrated and also microservices architectures',
+      image: 'https://res.cloudinary.com/dljbovogk/image/upload/v1750686139/Screenshot_111_ltacfk.png',      
+      technologies: ['React.js', 'Node.js', 'Tailwind', 'Socket.io', 'Redis', 'Microservices Arhitectures'],
       liveUrl: '#',
       githubUrl: '#'
     },
     {
       id: 4,
-      title: 'Social Media Analytics',
-      description: 'An analytics dashboard for social media management with data visualization, engagement tracking, and automated reporting features.',
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80',
-      technologies: ['Python', 'Django', 'D3.js', 'Redis'],
+      title: 'Saas Application',
+      description: 'A Saas application that helps content creators, influencer and business people add value to their content by providing them with a platform to create and manage their content effectively, and also add clickable links in their videos to generate and increase conversion rate',
+      image: 'https://res.cloudinary.com/dljbovogk/image/upload/v1750686841/Screenshot_112_laxpvd.png',
+      technologies: ['Supabase', 'React', 'Open AI API', 'Redis'],
       liveUrl: '#',
       githubUrl: '#'
     }
@@ -64,7 +64,7 @@ const Projects = () => {
                 <img 
                   src={project.image} 
                   alt={project.title}
-                  className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110"
+                  className="w-full h-70 object-cover transition-transform duration-300 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <div className="absolute bottom-4 right-4 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -102,6 +102,7 @@ const Projects = () => {
                   <Button 
                     size="sm" 
                     className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white border-0 flex-1"
+                  onClick={() => window.location.href = '#contact'}
                   >
                     View Live
                   </Button>
@@ -109,6 +110,7 @@ const Projects = () => {
                     size="sm" 
                     variant="outline" 
                     className="border-gray-600 text-white hover:bg-white/10"
+                  onClick={() => window.location.href = '#contact'}
                   >
                     Code
                   </Button>
@@ -123,6 +125,7 @@ const Projects = () => {
             size="lg" 
             variant="outline" 
             className="border-gray-600 text-white hover:bg-white/10"
+            onClick={() => window.location.href = '#contact'}
           >
             View All Projects
           </Button>
