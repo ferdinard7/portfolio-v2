@@ -64,7 +64,7 @@ const Hero = () => {
               size="lg" 
               variant="outline" 
               className="border-gray-600 text-white hover:bg-white/10"
-              onClick={() => window.open('https://drive.google.com/file/d/1IJVkyHEXYhhJM_oPVUQ1I0QS06WYXt7j/view?usp=sharing', '_blank')}
+              onClick={() => window.open('https://drive.google.com/file/d/1Bka45ahp3mlkDXm618JF3lEOB7h-j2WD/view?usp=sharing', '_blank')}
             >
               Download CV
             </Button>
