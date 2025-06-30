@@ -8,7 +8,7 @@ const Projects = () => {
       id: 1,
       title: 'E-Commerce Platform',
       description: 'A full-stack e-commerce solution built with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, and admin dashboard.',
-      image: 'https://res.cloudinary.com/dljbovogk/image/upload/v1750684243/Ecommerce_gydocn_ucohqw.png',
+      image: 'https://res.cloudinary.com/dljbovogk/image/upload/v1751257012/Ecommerce_gydocn_q0okv1.png',
       technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
       liveUrl: '#',
       githubUrl: '#'
